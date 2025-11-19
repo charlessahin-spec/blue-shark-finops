@@ -53,20 +53,20 @@ const Proof = () => {
           ))}
         </div>
 
-        <div className="bg-gradient-premium rounded-2xl p-8 sm:p-12 text-center shadow-premium">
+        <div className="bg-gradient-premium rounded-2xl p-6 sm:p-8 md:p-12 text-center shadow-premium">
           <div className="max-w-3xl mx-auto">
-            <div className="grid grid-cols-3 gap-8">
+            <div className="grid grid-cols-3 gap-4 sm:gap-6 md:gap-8">
               <div>
-                <p className="text-4xl sm:text-5xl font-bold text-primary-foreground mb-2">12K€</p>
-                <p className="text-primary-foreground/80 text-sm">Économie moyenne / an</p>
+                <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-1 sm:mb-2">12K€</p>
+                <p className="text-primary-foreground/80 text-xs sm:text-sm">Économie moyenne / an</p>
               </div>
               <div>
-                <p className="text-4xl sm:text-5xl font-bold text-primary-foreground mb-2">40%</p>
-                <p className="text-primary-foreground/80 text-sm">Réduction charges</p>
+                <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-1 sm:mb-2">40%</p>
+                <p className="text-primary-foreground/80 text-xs sm:text-sm">Réduction charges</p>
               </div>
               <div>
-                <p className="text-4xl sm:text-5xl font-bold text-primary-foreground mb-2">100%</p>
-                <p className="text-primary-foreground/80 text-sm">Conformité</p>
+                <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-1 sm:mb-2">100%</p>
+                <p className="text-primary-foreground/80 text-xs sm:text-sm">Conformité</p>
               </div>
             </div>
           </div>
