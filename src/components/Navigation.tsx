@@ -26,13 +26,14 @@ const Navigation = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center">
-              <img src={logo} alt="Blue Shark Consulting" className="h-12 w-auto" />
+              <img src={logo} alt="Blue Shark Consulting" className="h-8 sm:h-10 md:h-12 w-auto" />
             </div>
             <button
               onClick={openCalendly}
-              className="px-6 py-2.5 bg-gradient-premium text-primary-foreground font-semibold rounded-lg hover:shadow-premium transition-all duration-300 hover:scale-105"
+              className="px-4 sm:px-6 py-2 sm:py-2.5 text-sm sm:text-base bg-gradient-premium text-primary-foreground font-semibold rounded-lg hover:shadow-premium transition-all duration-300 hover:scale-105"
             >
-              Réserver un appel
+              <span className="hidden sm:inline">Réserver un appel</span>
+              <span className="sm:hidden">Réserver</span>
             </button>
           </div>
         </div>

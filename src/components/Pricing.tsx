@@ -18,21 +18,6 @@ const offers = [
     popular: true
   },
   {
-    icon: Clock,
-    title: "Accompagnement Premium",
-    price: "À partir de 899€ HT",
-    description: "Optimisation complète et mise en place des stratégies",
-    features: [
-      "Optimisation fiscale complète",
-      "Mise en place des stratégies",
-      "Réponses illimitées par écrit",
-      "Mise en conformité totale",
-      "Suivi personnalisé"
-    ],
-    cta: "Démarrer l'accompagnement",
-    popular: false
-  },
-  {
     icon: TrendingUp,
     title: "Accompagnement Mensuel",
     price: "289€ HT / mois",
@@ -45,6 +30,21 @@ const offers = [
       "Résiliation à tout moment"
     ],
     cta: "S'abonner maintenant",
+    popular: false
+  },
+  {
+    icon: Clock,
+    title: "Accompagnement Premium",
+    price: "À partir de 899€ HT",
+    description: "Optimisation complète et mise en place des stratégies",
+    features: [
+      "Optimisation fiscale complète",
+      "Mise en place des stratégies",
+      "Réponses illimitées par écrit",
+      "Mise en conformité totale",
+      "Suivi personnalisé"
+    ],
+    cta: "Démarrer l'accompagnement",
     popular: false
   }
 ];

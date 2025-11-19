@@ -26,10 +26,6 @@ const faqs = [
     question: "Quel est le délai pour voir des résultats ?",
     answer: "Les premiers résultats sont généralement visibles dès le premier mois. Pour une optimisation complète avec restructuration, comptez 2 à 3 mois. Le call fiscal initial vous donne déjà un plan d'action en 24h.",
   },
-  {
-    question: "Que comprend l'abonnement Fiscal Club ?",
-    answer: "Le Fiscal Club vous donne accès à des analyses hebdomadaires, des mini-formations, des modèles juridiques, des alertes fiscales en temps réel et un support prioritaire. C'est l'outil idéal pour rester informé et optimiser votre fiscalité en continu.",
-  },
 ];
 
 const FAQ = () => {
