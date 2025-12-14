@@ -61,7 +61,7 @@ const Pricing = () => {
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            Nos Offres Premium
+            Nos Offres Sur-Mesure
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Choisissez l'accompagnement adapté à vos besoins

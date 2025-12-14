@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="flex flex-col items-center md:items-start">
             <img src={logo} alt="Blue Shark Consulting" className="h-10 sm:h-12 w-auto mb-4" />
             <p className="text-muted-foreground text-sm text-center md:text-left max-w-md px-4 md:px-0">
-              Cabinet d'optimisation fiscale, juridique et sociale premium pour entrepreneurs et dirigeants.
+              Cabinet d'optimisation fiscale, juridique et sociale sur-mesure pour entrepreneurs et dirigeants.
             </p>
           </div>
           
