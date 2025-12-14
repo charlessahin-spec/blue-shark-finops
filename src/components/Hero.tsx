@@ -17,12 +17,12 @@ const Hero = () => {
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-4 sm:mb-6 leading-tight px-2">
             Optimisation Fiscale & Sociale{" "}
             <span className="bg-gradient-gold bg-clip-text text-transparent">
-              Haut de Gamme
+              Sur-Mesure
             </span>
           </h1>
           
           <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-8 sm:mb-10 max-w-3xl mx-auto leading-relaxed px-2">
-            Accompagnement complet pour réduire vos charges, simplifier votre gestion et sécuriser votre situation juridique. Service premium destiné aux entrepreneurs, freelances et dirigeants.
+            Accompagnement complet pour réduire vos charges, simplifier votre gestion et sécuriser votre situation juridique. Service exclusif destiné aux entrepreneurs, freelances et dirigeants.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 sm:mb-16 px-2">
